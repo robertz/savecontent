@@ -1,0 +1,8 @@
+{
+    "app":{
+        "cfengine":"adobe@2023"
+    },
+    "JVM":{
+        "javaVersion":"openjdk17"
+    }
+}

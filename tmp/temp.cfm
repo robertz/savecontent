@@ -1,0 +1,1 @@
+<cfset x = {key: "value"} ><cfdump var="#x#" />
