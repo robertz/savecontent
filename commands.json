@@ -1,3 +1,4 @@
 [
- "<cfset x = {key: \"value\"} ><cfdump var=\"#x#\" />"
+ "<cfset x = {key: \"value\"} ><cfdump var=\"#x#\" />",
+ "<cfinclude template=\"/includeme.cfm\" />"
 ]

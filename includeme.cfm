@@ -1,0 +1,1 @@
+<cfset something = "value" />

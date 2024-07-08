@@ -18,8 +18,11 @@
 
 <cfoutput>
 	<cfset start = getTickCount() />
-	<cfloop from="1" to="100" index="i">
+	<cfloop from="1" to="10" index="i">
 		#renderCFML(commands[1])#<br />
 	</cfloop>
-	#getTickCount() - start# ms
+	#getTickCount() - start# ms<br/>
+
+	#renderCFML(commands[2])#<br />
+	<cfdump var="#variables#" />
 </cfoutput>
